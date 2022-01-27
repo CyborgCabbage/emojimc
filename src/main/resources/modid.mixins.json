@@ -6,7 +6,10 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "FontManagerAccessor",
+    "MinecraftClientAccessor",
+    "MinecraftClientMixin",
+    "FontStorageAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
